@@ -1,0 +1,25 @@
+client = react app
+api = express js
+===================
+cd client
+yarn create react-app .
+yarn start
+ctrl + c
+-------------------
+yarn add react-router-dom
+-------------------
+export default function Post() {
+    return (
+    )
+}
+-------------------
+cd api
+yarn add express
+-------------------
+node index.js
+menjalankan node.js agar save langsung restart = nodemon index.js
+kalo gak pake nodemon setiap ada perubahan harus ketik node index.js berkali - kali
+(kalo nodemon gak bisa maka install dulu) = yarn global add nodemon
+------------------
+cd api
+yarn add cors
